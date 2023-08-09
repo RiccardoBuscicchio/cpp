@@ -11,6 +11,8 @@ The rules of `raindrops` are that if a given number:
 - has 7 as a factor, add 'Plong' to the result.
 - _does not_ have any of 3, 5, or 7 as a factor, the result should be the digits of the number.
 
+`raindrops` must evaluate the result and return it through a function `raindrops::convert`.
+
 ## Examples
 
 - 28 has 7 as a factor, but not 3 or 5, so the result would be "Plong".
